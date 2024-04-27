@@ -14,6 +14,6 @@ php artisan queue:start
 
 php artisan reverb:start
 
-npm install && npm run build
+npm install && npm run dev
 
 php artisan serve
