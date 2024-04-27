@@ -1,0 +1,82 @@
+{
+  "_ShowErrors-CxU7xYIh.js": {
+    "file": "assets/ShowErrors-CxU7xYIh.js",
+    "name": "ShowErrors",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Dd_tqEO8.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/layouts/AuthenticatedLayout.vue",
+      "resources/js/pages/Chat.vue",
+      "resources/js/pages/About.vue",
+      "resources/js/layouts/GuestLayout.vue",
+      "resources/js/pages/Login.vue",
+      "resources/js/pages/Register.vue"
+    ],
+    "css": [
+      "assets/app-Fu-K-xJ5.css"
+    ]
+  },
+  "resources/js/layouts/AuthenticatedLayout.vue": {
+    "file": "assets/AuthenticatedLayout-lCPVp9J0.js",
+    "name": "AuthenticatedLayout",
+    "src": "resources/js/layouts/AuthenticatedLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/layouts/GuestLayout.vue": {
+    "file": "assets/GuestLayout-16iZ0fjo.js",
+    "name": "GuestLayout",
+    "src": "resources/js/layouts/GuestLayout.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/About.vue": {
+    "file": "assets/About-BppSvBSi.js",
+    "name": "About",
+    "src": "resources/js/pages/About.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Chat.vue": {
+    "file": "assets/Chat-Dmb-sgyR.js",
+    "name": "Chat",
+    "src": "resources/js/pages/Chat.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/pages/Login.vue": {
+    "file": "assets/Login-_JTaHFof.js",
+    "name": "Login",
+    "src": "resources/js/pages/Login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ShowErrors-CxU7xYIh.js"
+    ]
+  },
+  "resources/js/pages/Register.vue": {
+    "file": "assets/Register-_pKUUBrU.js",
+    "name": "Register",
+    "src": "resources/js/pages/Register.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js",
+      "_ShowErrors-CxU7xYIh.js"
+    ]
+  }
+}
