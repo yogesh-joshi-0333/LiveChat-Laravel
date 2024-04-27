@@ -1,4 +1,8 @@
 # LiveChat-Laravel
+
+# Environment Requirements
+
+PHP 8.2 laravel 11.*
  
 composer install --optimize-autoloader
 
