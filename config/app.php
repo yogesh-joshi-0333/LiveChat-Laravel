@@ -122,5 +122,9 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
+    'aliases' => [
+        'start_session' => \Illuminate\Session\Middleware\StartSession::class,
+        'share_errors_from_session' => \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+    ],
 
 ];
